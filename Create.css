@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:white;
+}
+.cloe{
+    width: 300px;
+    height: 400px;
+    border: 3px solid;
+    text-align: center;
+    padding: 70px 30px;
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color:#220224;
+    color:wheat;
+}
+img{
+   width: 100px;
+}    
+button{
+    background-color: #0de606;
+   
+}
+#in{
+     text-decoration: none;
+    color:white ;
+}
+button:hover{
+    background-color: rgb(21, 13, 180);
+}
+#in:hover{
+    color: white;
+}

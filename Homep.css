@@ -1,0 +1,182 @@
+*{
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(liz.jpeg);
+    background-size: cover;
+    font-size: large;
+    background-image: url(drake.jpeg);
+    background-size: cover;
+}
+
+.navbar{
+    height: 10%;
+    width: 100%;
+    background-color:#051f47;
+    font-family: sans-sercif;
+    position:relative;
+
+}
+.donn{
+    width: 90%;
+    margin: auto;
+    padding: 10px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#logo{
+    width: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+#stay{
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    font-style: oblique;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.donn ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+.donn ul li a{
+    text-decoration: none;
+    color: white;
+}
+.donn ul li a:hover{
+    color: blue;
+}
+.active,.donn ul li:hover{
+    background: darkgrey;
+    border-radius: 3px;
+}
+.khali{
+    height: 100px;
+    width: 100%;
+    background-color: saddlebrown;
+   text-align: center;
+  padding-top: 70px;
+   padding-left:0% ;
+   padding-bottom:10px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.better{
+    height: 350px;
+    width: 100%;
+    background-image: url(smile.jpeg);
+    background-size: 100% , 100%;
+
+}
+.born{
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    color: wheat;
+    padding-top: 50px;
+    padding-right:10% ;
+    padding-bottom:15%; 
+    text-align: center;
+   
+}
+input{
+    color:white;
+    background-color: transparent;
+    font-size: large;
+    font-family:cursive;
+
+}
+button{
+    font-size: larger;
+}
+.blue{
+    height: 500px;
+    width: 100%;
+}
+.phy{
+   
+    height: auto;
+    background-color: aqua;
+    width: 100%;
+    margin-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+img{
+    width: 300px;
+    border-radius: 5px;
+}
+.item{
+    flex-basis: 25%;
+    padding: 10px;
+   
+}
+.wap{
+   color: white;
+   position: absolute;
+   padding-left:12% ;
+   padding-top: 4%;
+} 
+a{
+    color: black;
+}
+a:hover{
+    color: blue;
+}
+
+
+
+
+
+footer{
+    width: 100%;
+    position: ;
+    background:linear-gradient(to right, hsl(240, 87%, 9%), #071951);
+   
+    padding: 2PX 0 1;
+    font-size: medium;
+}
+.row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.col{
+    flex-basis: 25%;
+    padding: 10px;
+   text-align: center;
+   color: wheat;
+}
+#yes{
+    text-decoration: underline;
+    text-align: center;
+    color: wheat;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    
